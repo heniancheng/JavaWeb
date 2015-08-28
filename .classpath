@@ -4,6 +4,10 @@
 	<classpathentry kind="src" path="html"/>
 	<classpathentry kind="src" path="resources"/>
 	<classpathentry kind="src" path="css"/>
+	<classpathentry kind="src" path="jsp"/>
+	<classpathentry kind="src" path="servlet"/>
+	<classpathentry kind="src" path="mystruts"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/servlet-api.jar"/>
+	<classpathentry kind="output" path="WEB-INF/classes"/>
 </classpath>
