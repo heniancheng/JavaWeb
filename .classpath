@@ -17,6 +17,6 @@
 	<classpathentry kind="lib" path="WEB-INF/lib/ognl-3.0.6.jar"/>
 	<classpathentry kind="lib" path="WEB-INF/lib/servlet-api.jar"/>
 	<classpathentry kind="lib" path="WEB-INF/lib/struts2-core-2.3.16.3.jar"/>
-	<classpathentry kind="lib" path="WEB-INF/lib/xwork-core-2.3.16.3.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/xwork-core-2.3.16.3.jar" sourcepath="E:/软件源/java/struts-2.3.16.3/src/xwork-core/src/main/java"/>
 	<classpathentry kind="output" path="WEB-INF/classes"/>
 </classpath>

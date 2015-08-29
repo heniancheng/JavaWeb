@@ -4,11 +4,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>the homepage of jsp</title>
+<title>Insert title here</title>
 </head>
 <body>
-Welcome to coming into jsp!!!
-<hr/>
-
+namespace使用时的访问路径<br/>
+http://127.0.0.1:8080/javaweb/index/main
 </body>
 </html>
