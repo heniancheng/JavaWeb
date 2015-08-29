@@ -21,4 +21,5 @@ struts中action的简单入门，
  配置文件struts.xml中namespace的作用介绍，
 jsp文件中使用链接时用绝对路径
 
-
+6.hibernate使用
+环境的搭建：加入hibernate库，还有mysql-connector-java-xxx.jar库；创建hibernate.cfg.xml文件，放入src路径下（这里还增加了一个log4j的配置文件；定义实体类User；定义映射文件User.hbm.xml，与实体类放于同一路径；在hibernate.cfg.xml文件中加入User.hbm.xml文件；最后建操作类（创建表，插入数据等），注意数据库要手动创建。

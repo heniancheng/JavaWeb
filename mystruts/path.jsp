@@ -12,6 +12,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <title>Insert title here</title>
 </head>
 <body>
-<a href="Hello.jsp">回到Hello.jsp</a>
+<a href="mystruts/Hello.jsp">回到Hello.jsp</a>
 </body>
 </html>
