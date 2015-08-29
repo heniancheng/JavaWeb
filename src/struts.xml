@@ -29,7 +29,7 @@
         
         <action name="hello">
             <result>
-                /Hello.jsp
+                /mystruts/Hello.jsp
             </result>
         </action>
     </package>
