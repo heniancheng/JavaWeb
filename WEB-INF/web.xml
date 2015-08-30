@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
  Licensed to the Apache Software Foundation (ASF) under one or more
   contributor license agreements.  See the NOTICE file distributed with
@@ -28,6 +28,17 @@
         <welcome-file>index.htm</welcome-file>
         <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
+  
+  <!-- struts,hibernate,spring整合时添加下面参数 -->
+  <context-param>
+     <param-name>contextConfigLocation</param-name>
+     <param-value>classpath:applicationContext.xml</param-value>
+  </context-param>
+  
+  <!-- struts,hibernate,spring整合时添加以下监听器 -->
+  <listener>
+     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
   
   <filter>
         <filter-name>struts2</filter-name>

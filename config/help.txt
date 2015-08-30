@@ -1,0 +1,3 @@
+config文件夹下是一些配置文件的模板
+其中hibernate.cfg.xml文件是hibernate框架使用的核心配置文件。
+在使用spring后，该配置被整合到applicationContext.xml文件中，所有项目的后期不再使用该配置文件。
