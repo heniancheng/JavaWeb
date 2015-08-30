@@ -23,3 +23,8 @@ jsp文件中使用链接时用绝对路径
 
 6.hibernate使用
 环境的搭建：加入hibernate库，还有mysql-connector-java-xxx.jar库；创建hibernate.cfg.xml文件，放入src路径下（这里还增加了一个log4j的配置文件；定义实体类User；定义映射文件User.hbm.xml，与实体类放于同一路径；在hibernate.cfg.xml文件中加入User.hbm.xml文件；最后建操作类（创建表，插入数据等），注意数据库要手动创建。
+
+7.spring使用
+第一次使用：加入spring库；创建各个DAO类；在配置文件ApplicationContext.xml中加入注入；客户端调用时采用注放的方式
+BeanFactory factory=new ClassPathXmlApplicationContext("applicationContext.xml");
+UserManager manager = (UserManager)factory.getBean("userManager");
